@@ -8,9 +8,9 @@ This report about the bot presents a comparison of the performance of the machin
 
 Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
-![A screenshot of the result.](Images\Base_Model_Class_Rpt.png)
+![A screenshot of the result.](Images/Base_Model_Class_Rpt.png)
 
-![A screenshot of the result.](Images\Base_Model.png)
+![A screenshot of the result.](Images/Base_Model.png)
 
 
 <br>
@@ -23,16 +23,16 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 <b> Answer: </b> 
 * By increasing the training window from 3 months to 6 months the Accurracy level increased by 1% (from 55% to 56%) and the recall also got better by 2 decimal points from 0.96 to 0.98.
 
-![A screenshot of the result.](Images\Tuned_Model_Training_Dataset_6mnths_rpt.png)
+![A screenshot of the result.](Images/Tuned_Model_Training_Dataset_6mnths_rpt.png)
 
-![A screenshot of the result.](Images\Tuned_Model_Training_Dataset_6mnths.png)
+![A screenshot of the result.](Images/Tuned_Model_Training_Dataset_6mnths.png)
 
 
 * By decreasing the training window from 3 months to 1 month the Accurracy level and Recall remain unchanged.
 
-![A screenshot of the result.](Images\Tuned_Model_Training_Dataset_1mnth_rpt.png)
+![A screenshot of the result.](Images/Tuned_Model_Training_Dataset_1mnth_rpt.png)
 
-![A screenshot of the result.](Images\Tuned_Model_Training_Dataset_1mnth.png)
+![A screenshot of the result.](Images/Tuned_Model_Training_Dataset_1mnth.png)
 
 <br>
 
@@ -44,21 +44,21 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 <b> Answer: </b>
 * By increasing the short window from 4 to 6 and also increasing the long window from 100 to 110, for the same size of training data-set the accuracy and recall both have increased.
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Short_Long_wnd_rpt.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Short_Long_wnd_rpt.png)
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Short_Long_wnd.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Short_Long_wnd.png)
 
 * By increasing only the short window from 4 to 6, for the same size of training data-set the accuracy level increased to 56% and the recall level also increased to 99%.
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Short_wnd_rpt.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Short_wnd_rpt.png)
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Short_wnd.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Short_wnd.png)
 
 * By increasing only the long window from 100 to 110, for the same size of training data-set the accuracy remain unchanged but recall have decreased.
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Long_wnd_rpt.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Long_wnd_rpt.png)
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Long_wnd.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Long_wnd.png)
 
 <br>
 
@@ -66,9 +66,9 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 The best set of parameters which gave an improved trading algorithim returns are short window of 6 and long window of 100 for a 3 months training dataset. Accuracy is 56% and recall level is 99% .
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Short_wnd_rpt.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Short_wnd_rpt.png)
 
-![A screenshot of the result.](Images\Tuned_Model_Increased_Short_wnd.png)
+![A screenshot of the result.](Images/Tuned_Model_Increased_Short_wnd.png)
 
 <br>
 
@@ -77,9 +77,9 @@ The best set of parameters which gave an improved trading algorithim returns are
 
 AdaBoost Model - Accuracy level is 85%, Recall level is 0.92 and Precision is 0.84
 
-![A screenshot of the result.](Images\AdaBoost_Model_Class_Rpt.png)
+![A screenshot of the result.](Images/AdaBoost_Model_Class_Rpt.png)
 
-![A screenshot of the result.](Images\AdaBoost_Model.png)
+![A screenshot of the result.](Images/AdaBoost_Model.png)
 
 
 <br>
