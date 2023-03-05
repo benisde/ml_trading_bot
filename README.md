@@ -4,7 +4,7 @@ This report about the bot presents a comparison of the performance of the machin
 
 <br>
 
-<u> Baseline performance for the current trading algorithm </u>
+<b> Baseline performance for the current trading algorithm </b>
 
 Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
@@ -15,7 +15,7 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 <br>
 
-<u> Tune the training algorithm by adjusting the size of the training dataset </u>
+<b> Tune the training algorithm by adjusting the size of the training dataset </b>
 
 <br>
 <b> Question: </b> What impact resulted from increasing or decreasing the training window?
@@ -36,7 +36,7 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 <br>
 
-<u> Tune the trading algorithm by adjusting the SMA input features </u>
+<b> Tune the trading algorithm by adjusting the SMA input features </b>
 
 <br>
 <b> Question: </b> What impact resulted from increasing or decreasing either or both of the SMA windows?
@@ -62,7 +62,7 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 <br>
 
-<u> <b> Conclusion from the Tunning performed </b> </u>
+<b> Conclusion from the Tunning performed </b>
 
 The best set of parameters which gave an improved trading algorithim returns are short window of 6 and long window of 100 for a 3 months training dataset. Accuracy is 56% and recall level is 99% .
 
@@ -73,7 +73,7 @@ The best set of parameters which gave an improved trading algorithim returns are
 <br>
 
 
-<u><b> Performance of the new machine using the AdaBoost machine learning model </b></u>
+<b> Performance of the new machine using the AdaBoost machine learning model </b>
 
 AdaBoost Model - Accuracy level is 85%, Recall level is 0.92 and Precision is 0.84
 
@@ -88,4 +88,3 @@ AdaBoost Model - Accuracy level is 85%, Recall level is 0.92 and Precision is 0.
 
 <b> Answer: </b> 
 By using the Ada Boost Classifer model the accuracy increased hugely to 85% compared to both the base model having 55% and tuned model having 56%. But the recal level have decreased slightly to 0.92 compared to 0.95 for the base model and the 0.99 compared to the tuned algorithm. With high accuracru and recall level at 0.92 the AdaBoost model is a better perfroming model compared to both the above base and tuned algorithms.
-
