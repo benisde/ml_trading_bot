@@ -4,7 +4,7 @@ This report about the bot presents a comparison of the performance of the machin
 
 <br>
 
-<b> Baseline performance for the current trading algorithm </b>
+<b> <u> Baseline performance for the current trading algorithm </u> </b>
 
 Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
@@ -15,7 +15,7 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 <br>
 
-<b> Tune the training algorithm by adjusting the size of the training dataset </b>
+<b> <u> Tune the training algorithm by adjusting the size of the training dataset </u> </b>
 
 <br>
 <b> Question: </b> What impact resulted from increasing or decreasing the training window?
@@ -36,7 +36,7 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 <br>
 
-<b> Tune the trading algorithm by adjusting the SMA input features </b>
+<b> <u> Tune the trading algorithm by adjusting the SMA input features </u> </b>
 
 <br>
 <b> Question: </b> What impact resulted from increasing or decreasing either or both of the SMA windows?
@@ -62,18 +62,16 @@ Base Model - Accuracy level is 55%, Recall level is 0.96 and Precision is 0.56
 
 <br>
 
-<b> Conclusion from the Tunning performed </b>
+<b> <u> Conclusion from the Tunning performed  </u> </b>
 
-The best set of parameters which gave an improved trading algorithim returns are short window of 6 and long window of 100 for a 3 months training dataset. Accuracy is 56% and recall level is 99% .
+The best set of parameters which gave an improved trading algorithim returns are short window of 6 and long window of 100 for a 3 months training dataset. Accuracy is 56%, recall level is 0.99 and precision is 0.56 .
 
-![A screenshot of the result.](Images/Tuned_Model_Increased_Short_wnd_rpt.png)
 
-![A screenshot of the result.](Images/Tuned_Model_Increased_Short_wnd.png)
 
 <br>
 
 
-<b> Performance of the new machine using the AdaBoost machine learning model </b>
+<b> <u> Performance of the new machine using the AdaBoost machine learning model </u> </b>
 
 AdaBoost Model - Accuracy level is 85%, Recall level is 0.92 and Precision is 0.84
 
